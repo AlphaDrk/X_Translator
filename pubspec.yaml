@@ -1,0 +1,35 @@
+name: x
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  camera: ^0.11.1
+  google_mlkit_text_recognition: ^0.14.0
+  google_mlkit_translation: ^0.12.0
+  google_mlkit_language_id: ^0.12.0
+  speech_to_text: ^6.3.0
+  animate_do: ^3.3.4
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/X_Translator.jpeg"
+
+flutter:
+  uses-material-design: true
